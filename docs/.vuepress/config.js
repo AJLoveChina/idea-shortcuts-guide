@@ -1,6 +1,18 @@
+let path = require("path");
+let assetsPath = path.resolve(__dirname, '../assets');
+console.log(assetsPath);
+
 module.exports = {
     title: 'IntelliJ IDEA 快捷键速查文档',
     description: '文档在手,天下我有',
+    base: '/',
+    configureWebpack: {
+        resolve: {
+            alias: {
+                '@alias': assetsPath
+            }
+        }
+    },
     themeConfig: {
         displayAllHeaders: true, // 默认值：false
         sidebar: [
@@ -14,6 +26,7 @@ module.exports = {
             ['/altShift/', 'Alt + Shift 快捷键'],
             ['/cas/', 'Ctrl + Alt + Shift 快捷键'],
             ['/ot/', '其它快捷键'],
+            ['/modify/', '修改快捷键设置'],
         ]
     }
 };

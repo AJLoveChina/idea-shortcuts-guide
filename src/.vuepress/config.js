@@ -22,6 +22,17 @@ module.exports = {
         nav: [
             { text: 'Github', link: 'https://github.com/AJLoveChina/idea-shortcuts-guide' },
         ],
+        repo: "https://github.com/AJLoveChina/idea-shortcuts-guide",
+        repoLabel: '查看源码',
+        // 假如文档不是放在仓库的根目录下：
+        docsDir: 'src',
+        // 假如文档放在一个特定的分支下：
+        docsBranch: 'master',
+        // 默认是 false, 设置为 true 来启用
+        // 默认为 "Edit this page"
+        editLinkText: '在 Github 上编辑此页',
+        editLinks: true,
+        lastUpdated: "最近一次更新时间",
         sidebar: [
             ["/", "首页"],
             ['/avoid-mouse/', '摆脱鼠标'],

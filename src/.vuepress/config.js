@@ -7,7 +7,8 @@ module.exports = {
     base: '/idea/',
     dest: path.resolve(__dirname, "../../idea"),
     head: [
-      ['link', {rel : 'shortcut icon', type: "image/x-icon", href: '/nigeerhuox16.ico'}]
+        ['link', {rel: 'shortcut icon', type: "image/x-icon", href: '/nigeerhuox16.ico'}],
+        ['script', {async : 'async', src: "/baidu-tongji.js"}],
     ],
     ga: "UA-70087663-3",
     configureWebpack: {
@@ -20,7 +21,7 @@ module.exports = {
     themeConfig: {
         displayAllHeaders: true, // 默认值：false
         nav: [
-            { text: 'Github', link: 'https://github.com/AJLoveChina/idea-shortcuts-guide' },
+            {text: 'Github', link: 'https://github.com/AJLoveChina/idea-shortcuts-guide'},
         ],
         repo: "https://github.com/AJLoveChina/idea-shortcuts-guide",
         repoLabel: '查看源码',

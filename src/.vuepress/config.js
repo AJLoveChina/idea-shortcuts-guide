@@ -1,11 +1,15 @@
 let path = require("path");
 let assetsPath = path.resolve(__dirname, '../assets');
-console.log(assetsPath);
 
 module.exports = {
     title: 'IntelliJ IDEA 快捷键速查文档',
-    description: '文档在手,天下我有',
-    base: '/',
+    description: 'IntelliJ IDEA快捷键文档，idea快捷键速查手册，idea快捷键大全，idea摆脱鼠标快捷键，idea keys map',
+    base: '/idea/',
+    dest: path.resolve(__dirname, "../../idea"),
+    head: [
+      ['link', {rel : 'shortcut icon', type: "image/x-icon", href: '/nigeerhuox16.ico'}]
+    ],
+    ga: "UA-70087663-3",
     configureWebpack: {
         resolve: {
             alias: {
@@ -15,6 +19,9 @@ module.exports = {
     },
     themeConfig: {
         displayAllHeaders: true, // 默认值：false
+        nav: [
+            { text: 'Github', link: 'https://github.com/AJLoveChina/idea-shortcuts-guide' },
+        ],
         sidebar: [
             ["/", "首页"],
             ['/avoid-mouse/', '摆脱鼠标'],

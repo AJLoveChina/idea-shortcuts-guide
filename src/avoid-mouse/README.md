@@ -1,3 +1,7 @@
+---
+sidebarDepth: 3
+pageClass: custom-content-body
+---
 ::: tip
 摆脱鼠标开发是一件很有意义并且十年受益的事情（为什么只受益十年？因为有该技能的开发者十年后大都是架构师了~~:joy:）\
 此章节以windows为例，对于mac用户只需要把ctrl换成command即可
@@ -57,14 +61,37 @@ IDEA 支持对文件名/变量名重命名而不影响引用关系，快捷键�
 对于强类型语言，例如Java，这个操作通常是非常安全的。
 :::
 
-## ctrl + shift + A中常用的功能
+## ctrl + shift + A中常用的功能 / Actions
 `ctrl + shift + A`会打开一个输入框，你可以输入字符来搜索文件、符号以及动作。
 一般情况下其最强大的功能就是搜索动作（在idea里英文叫做Action），并且它支持模糊搜索。
-
 下面列举一些对摆脱鼠标编程非常有帮助的Action
-* Enter/QUIT Presentation mode 进入or退出专注模式，很难解释，你自己试一下就知道，非常酷，非常专注！(一般简写prese即可搜索到)
 
-    
+
+### 版本管理
+* `ctrl + shift + A` => 输入"version control" 进入版本管理面板，查看历史commit记录，本地修改等
+
+### 命令行面板
+* `ctrl + shift + A` => 输入"terminal"
+
+### 专注模式
+> （也叫演出模式，表演模式）Enter/QUIT Presentation mode 进入or退出专注模式，你自己试一下会发现，非常酷，非常专注！(一般简写prese即可搜索到)
+* `ctrl + shift + A` => 输入 "presentation"
+
+### 更多Actions
+
+|     Action    |                    打开方式                                  |  用处 |
+|:-------------:|------------------------------------------------|-----------|
+|       About  |      `ctrl + shift + A` => 输入 "about"        | 查看编辑器的大概信息 版本号等 |
+|       branches      |           `ctrl + shift + A` => 输入 "branches"              |如果你是使用git做版本管理，尝试这个Action 方便切换、修改、merge、push分支，是滴分支的管理这里全部完成|
+|       fetch      |           `ctrl + shift + A` => 输入 "fetch"              | 如果你是使用git做版本管理，立刻更新当前分支 |
+|       Maven  |      `ctrl + shift + A` => 输入 "maven"        | 查看、导入、构建maven项目，maven管理都在这里 |
+|       settings  |      `ctrl + shift + A` => 输入 "setting"        | 修改编辑器的全局设置 |
+|       safe write  |      `ctrl + shift + A` => 输入 "safe write"        | 很多时候你需要关闭这个设置，而且它是默认打开的。因为当它处于打开状态时，一些构建工具无法检测到代码文件的变化 |
+|       TODO      |           `ctrl + shift + A` => 输入 "TODO"              | 查看代码中TODO标签|
+
+:::tip
+在打开的任何Action面板，如果有多个tab页，你都可以使用 `alt + ←/→` 来左右切换tab页。
+:::
 
 
 

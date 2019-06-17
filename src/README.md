@@ -40,3 +40,4 @@ Github : [https://github.com/AJLoveChina](https://github.com/AJLoveChina)\
 
 <img style="width:300px;" :src="$withBase('/zhihu.jpg')" alt="foo">
 
+<v-comment idSufix="ideaShortcutsGuide"/>

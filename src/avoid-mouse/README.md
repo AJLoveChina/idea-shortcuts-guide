@@ -97,3 +97,6 @@ IDEA 支持对文件名/变量名重命名而不影响引用关系，快捷键�
 
 ## 参考文档
 * [https://isudox.com/2017/06/25/coding-with-keyboard-no-mouse/](https://isudox.com/2017/06/25/coding-with-keyboard-no-mouse/)
+
+
+<v-comment idSufix="ideaShortcutsGuide"/>

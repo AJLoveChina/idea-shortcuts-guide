@@ -10,3 +10,6 @@
 | Alt + Shift + 左键双击 |             选择被双击的单词 / 中文句，按住不放，可以同时选择其他单词 / 中文句 （必备）             |
 | Alt + Shift + 前方向键 |                                   移动光标所在行向上移动 （必备）                                   |
 | Alt + Shift + 后方向键 |                                   移动光标所在行向下移动 （必备）                                   |
+
+
+<v-comment idSufix="ideaShortcutsGuide"/>

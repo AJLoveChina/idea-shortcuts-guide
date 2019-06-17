@@ -17,3 +17,6 @@
 |     Shift + Enter    |       开始新一行。光标所在行下空出一行，光标定位到新行位置 （必备）       |
 |   Shift + 左键单击   |         在打开的文件名上按此快捷键，可以关闭当前打开文件 （必备）         |
 | Shift + 滚轮前后滚动 |                     当前文件的横向滚动轴滚动 （必备）                     |
+
+
+<v-comment idSufix="ideaShortcutsGuide"/>

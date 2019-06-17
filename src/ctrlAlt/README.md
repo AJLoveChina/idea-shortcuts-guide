@@ -23,3 +23,5 @@
 |   Ctrl + Alt + 后方向键  |                   在查找模式下，跳到下个查找的文件                   |
 | Ctrl + Alt + 右括号（]） |              在打开多个项目的情况下，切换下一个项目窗口              |
 | Ctrl + Alt + 左括号（[） |              在打开多个项目的情况下，切换上一个项目窗口              |
+
+<v-comment idSufix="ideaShortcutsGuide"/>

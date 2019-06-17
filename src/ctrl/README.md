@@ -46,3 +46,5 @@
 | Ctrl + 右方向键  | 光标跳转到当前单词 / 中文句的右侧开头位置 （必备）                                              |
 | Ctrl + 前方向键  | 等效于鼠标滚轮向前效果 （必备）                                                                 |
 | Ctrl + 后方向键  | 等效于鼠标滚轮向后效果 （必备）                                                                 |
+
+<v-comment idSufix="ideaShortcutsGuide"/>

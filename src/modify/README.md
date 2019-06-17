@@ -6,3 +6,5 @@
 如何自定义设置？
 
 ![Image from alias](~@alias/custom-keymap.jpg)
+
+<v-comment idSufix="ideaShortcutsGuide"/>

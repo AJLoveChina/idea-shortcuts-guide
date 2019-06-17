@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/AJLoveChina/idea-shortcuts-guide#readme",
   "devDependencies": {
-    "vuepress": "^0.14.10"
+    "vuepress": "^1.0.0-beta.2"
   }
 }

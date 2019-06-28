@@ -37,6 +37,7 @@ module.exports = {
         sidebar: [
             ["/", "首页"],
             ['/avoid-mouse/', '摆脱鼠标'],
+            ['/keymap/', '官方快捷键文档翻译计划'],
             ['/ctrl/', 'Ctrl 快捷键'],
             ['/alt/', 'Alt 快捷键'],
             ['/shift/', 'Shift 快捷键'],

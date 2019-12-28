@@ -21,6 +21,7 @@ module.exports = {
     themeConfig: {
         displayAllHeaders: true, // 默认值：false
         nav: [
+            {text: 'Docs首页🔫', link: 'http://docs.nigeerhuo.com/'},
             {text: 'Github', link: 'https://github.com/AJLoveChina/idea-shortcuts-guide'},
         ],
         repo: "https://github.com/AJLoveChina/idea-shortcuts-guide",

@@ -3,7 +3,7 @@
 
 
 ## 文档地址
-[http://docs.nigeerhuo.com/idea](http://docs.nigeerhuo.com/idea)
+[https://ajlovechina.github.io/idea-shortcuts-guide/index.html](https://ajlovechina.github.io/idea-shortcuts-guide/index.html)
 
 ## 开发以及部署
 ```bash
